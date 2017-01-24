@@ -1,0 +1,31 @@
+{
+  "name": "notes-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "keywords": [],
+  "author": "Vinay Puppal <me@vinaypuppal.com> (https://www.vinaypuppal.com/)",
+  "license": "MIT",
+  "bin": {
+    "notes": "./index.js"
+  },
+  "dependencies": {
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaypuppal/notes-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinaypuppal/notes-cli/issues"
+  },
+  "homepage": "https://github.com/vinaypuppal/notes-cli#readme",
+  "description": ""
+}
